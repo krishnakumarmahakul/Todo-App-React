@@ -1,0 +1,43 @@
+.homeContainer {
+  padding: 20px;
+  text-align: center;
+}
+
+.taskList {
+  list-style: none;
+  padding: 0;
+}
+
+.taskItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.taskItem.completed span {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.taskButtons button {
+  margin-left: 10px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.completeButton {
+  background-color: green;
+  color: white;
+}
+
+.editButton {
+  background-color: blue;
+  color: white;
+}
+
+.deleteButton {
+  background-color: red;
+  color: white;
+}

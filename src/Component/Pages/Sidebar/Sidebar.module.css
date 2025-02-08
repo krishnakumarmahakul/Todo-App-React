@@ -1,0 +1,74 @@
+.container {
+    margin-left: 2%;
+    width: 20%;
+    height: 100vh;
+    background-color: #f8f9fa;
+    color: #0d1b2a;
+    border-right: 1px solid #e0e0e0;
+    font-family: Arial, sans-serif;
+    padding: 10px;
+  }
+  
+  .notificationBar {
+    gap: 30px;
+    height: 50px;
+    background-color:#0d1b2a ;
+    color: #e0e0e0;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    font-weight: bold;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  .notificationIcon {
+    gap: 30px;
+    margin-left: 75px;
+  }
+  .notificationIcon i{
+    margin-left: 25px;
+    
+  }
+  .functionality {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    color: #0d1b2a;
+  }
+  
+  .content:hover {
+    background-color: #eaeaea;
+    color: #0d1b2a;
+  }
+  
+  .myproject {
+    margin-top: 30px;
+    font-size: 16px;
+    color: #444;
+    font-weight: bold;
+  }
+  
+  .myWork {
+    margin-top: 10px;
+    font-size: 14px;
+    padding-left: 20px;
+    color: #888;
+  }
+  .myproject i{
+    margin-right: 20px;
+  }
+  .myWork i{
+    gap: 10px;
+
+  }

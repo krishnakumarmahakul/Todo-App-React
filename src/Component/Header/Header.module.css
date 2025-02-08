@@ -1,0 +1,130 @@
+.Navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #e0e1dd;
+    color: #0d1b2a;
+    padding: 15px 7%;
+    height: 90px;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 15px;
+
+}
+
+ul {
+    flex: 1;
+    list-style: none;
+    text-align: center;
+}
+
+ul li {
+    display: inline-block;
+    margin: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+ul li:hover {
+    border-bottom-color: #a8a9ad;
+    color: #333;
+
+}
+
+.toggleIcon {
+    width: 50px;
+    cursor: pointer;
+    margin-left: 40px;
+
+}
+
+.searchBox {
+    display: flex;
+    align-items: center;
+    background: white;
+    color: #0d1b2a;
+    padding: 10px 20px;
+    border-radius: 50px;
+
+}
+
+.searchBox input {
+    padding: 6px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    color: #0d1b2a;
+    font-size: 18px;
+    max-width: 200px;
+
+}
+
+.searchBox img {
+
+    width: 20px;
+    cursor: pointer;
+
+
+}
+
+.searchBox input ::placeholder {
+    cursor: pointer;
+    color: white;
+
+}
+
+.toggle_light {
+    width: 20px;
+
+}
+
+.navLinks {
+
+
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.navItem {
+    font-size: 16px;
+    font-weight: 500;
+    color: #0d1b2a;
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.navItem a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.navItem:hover {
+    color: #1b263b;
+    transform: scale(1.05);
+}
+
+.fa-house {
+    font-size: 18px;
+    color: #0d1b2a;
+    margin-right: 10px;
+    transition: color 0.3s ease;
+}
+
+.fa-house:hover {
+    color: #1b263b;
+}
+
+
+  
+  
